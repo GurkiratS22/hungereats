@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import MobileNav from "./MobileNav";
 import MainNav from "./MainNav";
+import icon from "../assets/icon.svg";
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
           to="/"
           className="flex items-center text-3xl font-bold tracking-tight text-orange-500"
         >
-          <img src="./src/assets/icon.svg" alt="icon" className="h-9 mr-2"/>
+          <img src={icon} alt="icon" className="h-9 mr-2"/>
           HungerEats
         </Link>
         <div className="md:hidden">
