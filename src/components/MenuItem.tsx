@@ -27,7 +27,7 @@ const MenuItem = ({ menuItem, addToCart }: Props) => {
 
   return (
     <Card
-      className={`cursor-pointer transition-all duration-300 ease-in-out transform ${isClicked ? 'scale-95' : 'hover:shadow-lg hover:bg-gray-100 hover:scale-105'}`}
+      className={`cursor-pointer transition-all duration-300 ease-in-out transform ${isClicked ? 'scale-95' : 'md:hover:bg-gray-100 hover:scale-105'} md:hover:shadow-lg'}`}
       onClick={handleClick}
     >
       <CardHeader>
